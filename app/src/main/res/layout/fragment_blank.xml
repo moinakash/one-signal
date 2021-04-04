@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:flipTimer="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment">
+
+
+    <com.asp.fliptimerviewlibrary.CountDownClock
+        android:id="@+id/timerProgramCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        flipTimer:almostFinishedCallbackTimeInSeconds="5"
+        flipTimer:animationDuration="850"
+        flipTimer:digitSplitterColor="@color/colorAccent"
+        flipTimer:countdownTickInterval="500"
+        flipTimer:digitBottomDrawable="@drawable/background_bottom"
+        flipTimer:digitDividerColor="@color/transparent"
+        flipTimer:digitPadding="2dp"
+        flipTimer:digitTextColor="@color/black"
+        flipTimer:digitTextSize="24sp"
+        flipTimer:digitTopDrawable="@drawable/background_top"
+        flipTimer:digitWidth="28dp"
+        flipTimer:halfDigitHeight="22dp"
+        flipTimer:resetSymbol="0"
+
+        flipTimer:splitterPadding="0dp"
+
+        />
+
+</FrameLayout>
